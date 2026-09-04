@@ -7,7 +7,7 @@ about:
   head: c42b038
   archived: false
   latestVersion: 1.4.6
-  collectedAt: 2026-09-04T19:18:22Z
+  collectedAt: 2026-09-04T21:19:15Z
 timeline:
   created: 2014-05-11
   lastCommit: 2026-04-15
@@ -15,7 +15,7 @@ timeline:
 popularity:
   star: 709
   watcher: 21
-  fork: 88
+  fork: 89
   release: 13
   contributor: 23
   pullRequest: 76
@@ -83,6 +83,74 @@ total:
   openIssue: 79
   commit: 957
 ---
+path: /home/runner/.x-repo/github.com/zevv/duc
+collectedAt: 2026-09-04T21:19:16Z
+loc:
+  C:
+    code: 9436
+    comments: 521
+    blanks: 1659
+    files: 35
+  CHeader:
+    code: 2968
+    comments: 435
+    blanks: 335
+    files: 15
+  Html:
+    code: 748
+    comments: 7
+    blanks: 81
+    files: 3
+  Sh:
+    code: 144
+    comments: 26
+    blanks: 35
+    files: 1
+  Ebuild:
+    code: 138
+    comments: 14
+    blanks: 28
+    files: 2
+  Automake:
+    code: 69
+    comments: 0
+    blanks: 12
+    files: 1
+  RPMSpecfile:
+    code: 50
+    comments: 0
+    blanks: 15
+    files: 1
+  Css:
+    code: 26
+    comments: 0
+    blanks: 13
+    files: 1
+  Xml:
+    code: 24
+    comments: 0
+    blanks: 0
+    files: 1
+  Makefile:
+    code: 6
+    comments: 0
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 540
+    blanks: 282
+    files: 4
+  Text:
+    code: 0
+    comments: 218
+    blanks: 103
+    files: 1
+total:
+  code: 13648
+  comments: 1764
+  blanks: 2566
+  files: 66
 ---
 date: "2026-08-24"
 repo:
