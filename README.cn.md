@@ -4,7 +4,7 @@
 
 Dude, where are my bytes: Duc, a library and suite of tools for inspecting disk usage
 
-![duc](https://repo.x-cmd.io/duc.svg)
+![duc](https://repo.x-cmd.io/duc.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,12 @@ x install duc
 - **最新版本**: `1.4.6` (2025-11-06)
 - **最近提交**: 2026-04-15
 - **Release 含资产**: 1 个
-- **发布时间**: 2025-11-06T18:17:38Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [duc-1.4.6.tar.gz](https://github.com/zevv/duc/releases/download/1.4.6/duc-1.4.6.tar.gz) | 362.5 KiB | `native/unknown` |
 
 ## 流行度
 
@@ -71,4 +76,4 @@ duc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:39:09Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:34:37Z._
