@@ -12,40 +12,7 @@ Dude, where are my bytes: Duc, a library and suite of tools for inspecting disk 
 x install duc
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/zevv/duc>
-- **License**: LGPL-3.0
-
-## Release
-
-- **Latest**: `1.4.6` (2025-11-06)
-- **Last commit**: 2026-04-15
-- **Assets in release**: 1
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [duc-1.4.6.tar.gz](https://github.com/zevv/duc/releases/download/1.4.6/duc-1.4.6.tar.gz) | 362.5 KiB | `native/unknown` |
-
-## Popularity
-
-- **Stars**: 709 · **Forks**: 89 · **Open issues**: 287 · **Contributors**: 23
-
-## Totals (cumulative)
-
-- **Releases**: 13 · **Merged PRs**: 53 · **Open PRs**: 8 · **Closed issues**: 208 · **Open issues**: 79 · **Commits**: 957
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-09-15 | 1 | 4 | 6 | 2 | 9 | 5 |
-
-## Code size
+## Code insight
 
 Total: **13,609** lines of code across **56** files in the top 5 languages.
 
@@ -67,6 +34,60 @@ Lowest-scoring checks:
 - **Token-Permissions** (-1/10) — No tokens found
 - **Packaging** (-1/10) — packaging workflow not detected
 
+## Source
+
+- **Upstream**: <https://github.com/zevv/duc>
+- **License**: LGPL-3.0
+
+## Release
+
+- **Latest**: `1.4.6` (2025-11-06)
+- **Last commit**: 2026-04-15
+- **Assets in release**: 1
+
+## Popularity
+
+- **Stars**: 709 · **Forks**: 89 · **Open issues**: 287 · **Contributors**: 23
+
+## Totals (cumulative)
+
+- **Releases**: 13 · **Merged PRs**: 53 · **Open PRs**: 8 · **Closed issues**: 208 · **Open issues**: 79 · **Commits**: 957
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 3 | 4 | 1 | 2 | 5 |
+| 360d | 2025-09-15 | 1 | 4 | 6 | 2 | 9 | 5 |
+| last720d | 2024-09-20 | 1 | 4 | 6 | 4 | 16 | 6 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [duc-1.4.6.tar.gz](https://github.com/zevv/duc/releases/download/1.4.6/duc-1.4.6.tar.gz) | 362.5 KiB | `native/unknown` |
+
+## Distribution status
+
+Reported by **70** distros on [repology.org](https://repology.org/project/duc). **24** are ✅ on the latest upstream release, **38** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.4.6` | ✅ latest |
+| Debian 14 | `1.4.6` | ✅ latest |
+| Debian 13 | `1.4.5` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.4.6` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.4.5` | ⚠️ outdated |
+| Homebrew | `1.4.6` | ✅ latest |
+| Fedora rawhide | `1.4.6` | ✅ latest |
+| Nix unstable | `1.4.6` | ✅ latest |
+| Void | `1.4.5` | ⚠️ outdated |
+| Alpine edge | `1.4.5` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.4.6` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for duc lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `duc` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -76,4 +97,4 @@ Install metadata for duc lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:34:37Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:40:24Z._
