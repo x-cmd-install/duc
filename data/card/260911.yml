@@ -7,7 +7,7 @@ about:
   latestVersion: "1.4.6"
   latestRelease: "1.4.6"
   latestPrerelease: "1.0-rc1"
-  collectedAt: 2026-09-11T04:38:04Z
+  collectedAt: 2026-09-11T20:32:35Z
 timeline:
   created: 2014-05-11
   lastCommit: 2026-04-15
@@ -20,7 +20,7 @@ popularity:
   fork: 89
   release: 13
   contributor: 23
-  pullRequest: 76
+  pullRequest: 77
   issue: 287
 language:
   C: 591148
@@ -57,7 +57,7 @@ recent:
     since: 2026-03-15
     release: 0
     mergedPR: 3
-    openPR: 4
+    openPR: 5
     closedIssue: 1
     openIssue: 2
     commit: 5
@@ -65,7 +65,7 @@ recent:
     since: 2025-09-16
     release: 1
     mergedPR: 4
-    openPR: 6
+    openPR: 7
     closedIssue: 2
     openIssue: 9
     commit: 5
@@ -73,20 +73,20 @@ recent:
     since: 2024-09-21
     release: 1
     mergedPR: 4
-    openPR: 6
+    openPR: 7
     closedIssue: 4
     openIssue: 16
     commit: 6
 total:
   release: 13
   mergedPR: 53
-  openPR: 8
+  openPR: 9
   closedIssue: 208
   openIssue: 79
   commit: 957
 ---
 path: /home/runner/.x-repo/github.com/zevv/duc
-collectedAt: 2026-09-11T04:38:06Z
+collectedAt: 2026-09-11T20:32:36Z
 loc:
   C:
     code: 9436
