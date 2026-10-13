@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 717 · **Forks**: 90 · **Open issues**: 287 · **Contributors**: 23
+- **Stars**: 717 · **Forks**: 90 · **Open issues**: 288 · **Contributors**: 23
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 53 · **Open PRs**: 9 · **Closed issues**: 208 · **Open issues**: 79 · **Commits**: 957
+- **Releases**: 13 · **Merged PRs**: 53 · **Open PRs**: 9 · **Closed issues**: 208 · **Open issues**: 80 · **Commits**: 957
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-13 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-14 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-15 | 0 | 0 | 1 | 0 | 2 | 0 |
-| 360d | 2025-10-17 | 1 | 4 | 7 | 2 | 8 | 5 |
-| last720d | 2024-10-22 | 1 | 4 | 7 | 4 | 16 | 6 |
+| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last60d | 2026-08-14 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 90d | 2026-07-15 | 0 | 0 | 0 | 0 | 1 | 0 |
+| last180d | 2026-04-16 | 0 | 0 | 1 | 0 | 3 | 0 |
+| 360d | 2025-10-18 | 1 | 4 | 7 | 2 | 8 | 5 |
+| last720d | 2024-10-23 | 1 | 4 | 7 | 4 | 17 | 6 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for duc lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T05:50:26Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T06:49:20Z._
