@@ -1,26 +1,12 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: duc
   binnames:
-    - duc-nox
     - duc
+    - duc-nox
   visiblename: duc
   version: 1.4.5
   origversion: 1.4.5-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: duc
-  binnames:
-    - duc
-    - duc-nox
-  visiblename: duc
-  version: 1.4.3
-  origversion: 1.4.3-6
   status: outdated
   maintainers:
     - jmtd@debian.org
@@ -40,62 +26,6 @@
     - jmtd@debian.org
   categories:
     - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: duc
-  binnames:
-    - duc
-    - duc-nox
-  visiblename: duc
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.4
-  origversion: 1.4.4-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.6
-  origversion: 1.4.6-1
-  status: newest
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: duc
@@ -109,13 +39,6 @@
     - prokop@rdck.dev
   licenses:
     - LGPL-3.0-or-later
-- repo: homebrew
-  srcname: duc
-  visiblename: duc
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Suite of tools for inspecting disk usage
 - repo: alpine_edge
   subrepo: testing
   srcname: duc
@@ -334,20 +257,6 @@
     - LGPL-3.0-or-later AND MIT-Khronos-old
   categories:
     - Unspecified
-- repo: kali_rolling
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.6
-  origversion: 1.4.6-1
-  status: newest
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
 - repo: exherbo
   subrepo: platypus
   srcname: sys-apps/duc
@@ -392,6 +301,20 @@
     - LGPL-3.0-or-later AND MIT-Khronos-old
   categories:
     - Unspecified
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.4
+  origversion: 1.4.4-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
 - repo: fedora_41
   subrepo: release
   srcname: duc
@@ -531,6 +454,27 @@
   origversion: null
   status: newest
   summary: Suite of tools for inspecting disk usage
+- repo: homebrew
+  srcname: duc
+  visiblename: duc
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Suite of tools for inspecting disk usage
+- repo: kali_rolling
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1
+  status: newest
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: sys-apps/duc
   visiblename: sys-apps/duc
@@ -544,6 +488,34 @@
     - LGPL-3
   categories:
     - sys-apps
+- repo: raspbian_stable
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: 1.4.5-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1
+  status: newest
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: sys-apps/duc
   visiblename: sys-apps/duc
@@ -729,6 +701,34 @@
     - jmtd@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: 1.4.5-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: duc
+  binnames:
+    - duc
+    - duc-nox
+  visiblename: duc
+  version: 1.4.3
+  origversion: 1.4.3-6
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
 - repo: termux
   srcname: duc
   binname: duc
