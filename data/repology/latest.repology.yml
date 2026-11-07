@@ -1,3 +1,72 @@
+- repo: homebrew
+  srcname: duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: null
+  status: newest
+  summary: Suite of tools for inspecting disk usage
+- repo: homebrew
+  srcname: duc
+  visiblename: duc
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Suite of tools for inspecting disk usage
+- repo: kali_rolling
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1
+  status: newest
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
+- repo: nix_stable_25_05
+  srcname: duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: null
+  status: outdated
+  summary: Collection of tools for inspecting and visualizing disk usage
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-only
+- repo: nix_stable_24_05
+  srcname: duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: null
+  status: outdated
+  summary: Collection of tools for inspecting and visualizing disk usage
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-only
+- repo: nix_stable_24_11
+  srcname: duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: null
+  status: outdated
+  summary: Collection of tools for inspecting and visualizing disk usage
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-only
+- repo: gnuguix
+  srcname: duc
+  binname: duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: null
+  status: outdated
+  summary: Library and suite of tools for inspecting disk usage
 - repo: alpine_edge
   subrepo: testing
   srcname: duc
@@ -288,20 +357,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: duc
-  binnames:
-    - duc
-  visiblename: duc
-  version: 1.4.6
-  origversion: 1.4.6-1.fc42
-  status: newest
-  summary: Disk usage tools
-  licenses:
-    - LGPL-3.0-or-later AND MIT-Khronos-old
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: duc
   binnames:
@@ -315,14 +370,14 @@
     - LGPL-3.0-or-later AND MIT-Khronos-old
   categories:
     - Unspecified
-- repo: fedora_43
+- repo: fedora_42
   subrepo: updates
   srcname: duc
   binnames:
     - duc
   visiblename: duc
   version: 1.4.6
-  origversion: 1.4.6-1.fc43
+  origversion: 1.4.6-1.fc42
   status: newest
   summary: Disk usage tools
   licenses:
@@ -338,6 +393,20 @@
   version: 1.4.5
   origversion: 1.4.5-8.fc43
   status: legacy
+  summary: Disk usage tools
+  licenses:
+    - LGPL-3.0-or-later AND MIT-Khronos-old
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: duc
+  binnames:
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1.fc43
+  status: newest
   summary: Disk usage tools
   licenses:
     - LGPL-3.0-or-later AND MIT-Khronos-old
@@ -397,42 +466,6 @@
     - LGPL-3
   categories:
     - sys-apps
-- repo: gnuguix
-  srcname: duc
-  binname: duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: null
-  status: outdated
-  summary: Library and suite of tools for inspecting disk usage
-- repo: homebrew
-  srcname: duc
-  visiblename: duc
-  version: 1.4.6
-  origversion: null
-  status: newest
-  summary: Suite of tools for inspecting disk usage
-- repo: homebrew
-  srcname: duc
-  visiblename: duc
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Suite of tools for inspecting disk usage
-- repo: kali_rolling
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.6
-  origversion: 1.4.6-1
-  status: newest
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: sys-apps/duc
   visiblename: sys-apps/duc
@@ -485,39 +518,6 @@
     - LGPL-3
   categories:
     - sys-apps
-- repo: nix_stable_24_05
-  srcname: duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: null
-  status: outdated
-  summary: Collection of tools for inspecting and visualizing disk usage
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_24_11
-  srcname: duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: null
-  status: outdated
-  summary: Collection of tools for inspecting and visualizing disk usage
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-only
-- repo: nix_stable_25_05
-  srcname: duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: null
-  status: outdated
-  summary: Collection of tools for inspecting and visualizing disk usage
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-only
 - repo: nix_stable_25_11
   srcname: duc
   visiblename: duc
@@ -564,24 +564,24 @@
   categories:
     - System/Filesystems
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: 1.4.5-bp156.2.6
-  status: legacy
-  summary: Collection of tools for inspecting and visualizing disk usage
-  licenses:
-    - LGPL-3.0-only
-  categories:
-    - System/Filesystems
-- repo: opensuse_leap_15_6
   subrepo: updates/backports
   srcname: duc
   visiblename: duc
   version: 1.4.6
   origversion: 1.4.6-bp156.3.3.1
   status: newest
+  summary: Collection of tools for inspecting and visualizing disk usage
+  licenses:
+    - LGPL-3.0-only
+  categories:
+    - System/Filesystems
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: 1.4.5-bp156.2.6
+  status: legacy
   summary: Collection of tools for inspecting and visualizing disk usage
   licenses:
     - LGPL-3.0-only
@@ -853,6 +853,20 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1
+  status: newest
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: duc
   binnames:
     - duc-nox
