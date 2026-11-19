@@ -24,6 +24,16 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 | Sh | 144 | 26 | 35 | 1 |
 | Ebuild | 138 | 14 | 28 | 2 |
 
+## OpenSSF Scorecard
+
+Overall score: **2.8 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (3/10) — Found 3/9 approved changesets -- score normalized to 3
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+
 ## Source
 
 - **Upstream**: <https://github.com/zevv/duc>
@@ -41,18 +51,18 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 53 · **Open PRs**: 11 · **Closed issues**: 208 · **Open issues**: 80 · **Commits**: 957
+- **Releases**: 13 · **Merged PRs**: 53 · **Open PRs**: 12 · **Closed issues**: 208 · **Open issues**: 80 · **Commits**: 957
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-18 | 0 | 0 | 2 | 0 | 1 | 0 |
-| 90d | 2026-08-19 | 0 | 0 | 2 | 0 | 1 | 0 |
-| last180d | 2026-05-21 | 0 | 0 | 2 | 0 | 2 | 0 |
-| 360d | 2025-11-22 | 0 | 4 | 9 | 1 | 8 | 5 |
-| last720d | 2024-11-27 | 1 | 4 | 9 | 4 | 15 | 6 |
+| 30d | 2026-10-20 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-20 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 90d | 2026-08-21 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last180d | 2026-05-23 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-11-24 | 0 | 4 | 10 | 1 | 8 | 5 |
+| last720d | 2024-11-29 | 1 | 4 | 10 | 4 | 15 | 6 |
 
 ## Release assets
 
@@ -87,4 +97,4 @@ Install metadata for duc lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:03:56Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T07:35:37Z._
