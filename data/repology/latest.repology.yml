@@ -1,15 +1,115 @@
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
+- repo: parrot
+  subrepo: parrot/main
   srcname: duc
+  binnames:
+    - duc-nox
+    - duc
   visiblename: duc
   version: 1.4.5
-  origversion: 1.4.5-bp155.1.8
+  origversion: 1.4.5-1
   status: outdated
-  summary: Collection of tools for inspecting and visualizing disk usage
-  licenses:
-    - LGPL-3.0-only
+  maintainers:
+    - jmtd@debian.org
   categories:
-    - System/Filesystems
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: duc
+  binnames:
+    - duc
+    - duc-nox
+  visiblename: duc
+  version: 1.4.3
+  origversion: 1.4.3-6
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: duc
+  binnames:
+    - duc
+    - duc-nox
+  visiblename: duc
+  version: 1.4.4
+  origversion: 1.4.4-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: duc
+  binnames:
+    - duc
+    - duc-nox
+  visiblename: duc
+  version: 1.4.5
+  origversion: 1.4.5-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.4
+  origversion: 1.4.4-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.5
+  origversion: 1.4.5-1
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1
+  status: newest
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.3
+  origversion: 1.4.3-3
+  status: outdated
+  maintainers:
+    - jmtd@debian.org
+  categories:
+    - universe/misc
 - repo: alpine_edge
   subrepo: testing
   srcname: duc
@@ -328,20 +428,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: duc
-  binnames:
-    - duc
-  visiblename: duc
-  version: 1.4.6
-  origversion: 1.4.6-1.fc43
-  status: newest
-  summary: Disk usage tools
-  licenses:
-    - LGPL-3.0-or-later AND MIT-Khronos-old
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: duc
   binnames:
@@ -350,6 +436,20 @@
   version: 1.4.5
   origversion: 1.4.5-8.fc43
   status: legacy
+  summary: Disk usage tools
+  licenses:
+    - LGPL-3.0-or-later AND MIT-Khronos-old
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: duc
+  binnames:
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1.fc43
+  status: newest
   summary: Disk usage tools
   licenses:
     - LGPL-3.0-or-later AND MIT-Khronos-old
@@ -577,20 +677,18 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-only
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
   srcname: duc
-  binnames:
-    - duc-nox
-    - duc
   visiblename: duc
-  version: 1.4.6
-  origversion: 1.4.6-1
-  status: newest
-  maintainers:
-    - jmtd@debian.org
+  version: 1.4.5
+  origversion: 1.4.5-bp155.1.8
+  status: outdated
+  summary: Collection of tools for inspecting and visualizing disk usage
+  licenses:
+    - LGPL-3.0-only
   categories:
-    - universe/misc
+    - System/Filesystems
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: duc
@@ -646,20 +744,6 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: duc
   binnames:
@@ -669,90 +753,6 @@
   version: 1.4.5
   origversion: 1.4.5-1
   status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: duc
-  binnames:
-    - duc
-    - duc-nox
-  visiblename: duc
-  version: 1.4.3
-  origversion: 1.4.3-6
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: duc
-  binnames:
-    - duc
-    - duc-nox
-  visiblename: duc
-  version: 1.4.4
-  origversion: 1.4.4-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: duc
-  binnames:
-    - duc
-    - duc-nox
-  visiblename: duc
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.4
-  origversion: 1.4.4-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.5
-  origversion: 1.4.5-1
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.6
-  origversion: 1.4.6-1
-  status: newest
   maintainers:
     - jmtd@debian.org
   categories:
@@ -779,20 +779,6 @@
   status: outdated
   maintainers:
     - hpfn@ig.com.br
-  categories:
-    - universe/misc
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: duc
-  binnames:
-    - duc-nox
-    - duc
-  visiblename: duc
-  version: 1.4.3
-  origversion: 1.4.3-3
-  status: outdated
-  maintainers:
-    - jmtd@debian.org
   categories:
     - universe/misc
 - repo: ubuntu_20_04
@@ -863,6 +849,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: duc
+  binnames:
+    - duc-nox
+    - duc
+  visiblename: duc
+  version: 1.4.6
+  origversion: 1.4.6-1
+  status: newest
+  maintainers:
+    - jmtd@debian.org
   categories:
     - universe/misc
 - repo: ubuntu_26_10
