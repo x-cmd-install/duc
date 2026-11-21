@@ -24,6 +24,16 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 | Sh | 144 | 26 | 35 | 1 |
 | Ebuild | 138 | 14 | 28 | 2 |
 
+## OpenSSF Scorecard
+
+Overall score: **2.8 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (3/10) — Found 3/9 approved changesets -- score normalized to 3
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+
 ## Source
 
 - **Upstream**: <https://github.com/zevv/duc>
@@ -47,12 +57,12 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-21 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 90d | 2026-08-22 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last180d | 2026-05-24 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 360d | 2025-11-25 | 0 | 4 | 10 | 1 | 8 | 5 |
-| last720d | 2024-11-30 | 1 | 4 | 10 | 4 | 15 | 6 |
+| 30d | 2026-10-22 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 90d | 2026-08-23 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last180d | 2026-05-25 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-11-26 | 0 | 4 | 10 | 1 | 8 | 5 |
+| last720d | 2024-12-01 | 1 | 4 | 10 | 4 | 15 | 6 |
 
 ## Release assets
 
@@ -62,7 +72,7 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **70** distros on [repology.org](https://repology.org/project/duc). **26** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
+Reported by **69** distros on [repology.org](https://repology.org/project/duc). **26** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +97,4 @@ Install metadata for duc lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T07:16:14Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:04:49Z._

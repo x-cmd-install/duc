@@ -24,6 +24,16 @@ x install duc
 | Sh | 144 | 26 | 35 | 1 |
 | Ebuild | 138 | 14 | 28 | 2 |
 
+## OpenSSF Scorecard 评分
+
+总评分: **2.8 / 10**
+
+评分最低的几项:
+
+- **Code-Review** (3/10) — Found 3/9 approved changesets -- score normalized to 3
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/zevv/duc>
@@ -47,12 +57,12 @@ x install duc
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-21 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 90d | 2026-08-22 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last180d | 2026-05-24 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 360d | 2025-11-25 | 0 | 4 | 10 | 1 | 8 | 5 |
-| last720d | 2024-11-30 | 1 | 4 | 10 | 4 | 15 | 6 |
+| 30d | 2026-10-22 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-22 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 90d | 2026-08-23 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last180d | 2026-05-25 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-11-26 | 0 | 4 | 10 | 1 | 8 | 5 |
+| last720d | 2024-12-01 | 1 | 4 | 10 | 4 | 15 | 6 |
 
 ## Release 资产
 
@@ -62,7 +72,7 @@ x install duc
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/duc) 上共有 **70** 个发行版报告此项目。**26** 个 ✅ 已是最新上游版本，**36** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/duc) 上共有 **69** 个发行版报告此项目。**26** 个 ✅ 已是最新上游版本，**35** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -87,4 +97,4 @@ duc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261120.yml` · 2026-11-20T07:16:14Z._
+_数据快照: `data/card/261121.yml` · 2026-11-21T07:04:49Z._
