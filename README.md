@@ -24,16 +24,6 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 | Sh | 144 | 26 | 35 | 1 |
 | Ebuild | 138 | 14 | 28 | 2 |
 
-## OpenSSF Scorecard
-
-Overall score: **2.8 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (3/10) — Found 3/9 approved changesets -- score normalized to 3
-- **Token-Permissions** (-1/10) — No tokens found
-- **Dangerous-Workflow** (-1/10) — no workflows found
-
 ## Source
 
 - **Upstream**: <https://github.com/zevv/duc>
@@ -57,12 +47,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-23 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 90d | 2026-08-24 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last180d | 2026-05-26 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 360d | 2025-11-27 | 0 | 4 | 10 | 1 | 8 | 5 |
-| last720d | 2024-12-02 | 1 | 4 | 10 | 4 | 15 | 6 |
+| 30d | 2026-10-24 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-24 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 90d | 2026-08-25 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last180d | 2026-05-27 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-11-28 | 0 | 4 | 10 | 1 | 8 | 0 |
+| last720d | 2024-12-03 | 1 | 4 | 10 | 4 | 15 | 6 |
 
 ## Release assets
 
@@ -97,4 +87,4 @@ Install metadata for duc lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T06:50:21Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T08:48:32Z._
