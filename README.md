@@ -24,6 +24,16 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 | Sh | 144 | 26 | 35 | 1 |
 | Ebuild | 138 | 14 | 28 | 2 |
 
+## OpenSSF Scorecard
+
+Overall score: **2.8 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (3/10) — Found 3/9 approved changesets -- score normalized to 3
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+
 ## Source
 
 - **Upstream**: <https://github.com/zevv/duc>
@@ -47,36 +57,18 @@ Total: **13,609** lines of code across **56** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 90d | 2026-08-26 | 0 | 0 | 3 | 0 | 1 | 0 |
-| last180d | 2026-05-28 | 0 | 0 | 3 | 0 | 2 | 0 |
-| 360d | 2025-11-29 | 0 | 4 | 10 | 1 | 8 | 5 |
-| last720d | 2024-12-04 | 1 | 4 | 10 | 4 | 15 | 6 |
+| 30d | 2026-10-26 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 3 | 0 | 2 | 0 |
+| 360d | 2025-11-30 | 0 | 4 | 10 | 1 | 8 | 5 |
+| last720d | 2024-12-05 | 1 | 4 | 10 | 4 | 15 | 6 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [duc-1.4.6.tar.gz](https://github.com/zevv/duc/releases/download/1.4.6/duc-1.4.6.tar.gz) | 362.5 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **69** distros on [repology.org](https://repology.org/project/duc). **26** are ✅ on the latest upstream release, **35** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.4.6` | ✅ latest |
-| Debian 14 | `1.4.6` | ✅ latest |
-| Debian 13 | `1.4.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.4.6` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.4.5` | ⚠️ outdated |
-| Homebrew | `1.4.6` | ✅ latest |
-| Fedora rawhide | `1.4.6` | ✅ latest |
-| Nix unstable | `1.4.6` | ✅ latest |
-| Void | `1.4.5` | ⚠️ outdated |
-| Alpine edge | `1.4.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.4.6` | ✅ latest |
 
 ## Improve this data
 
@@ -87,4 +79,4 @@ Install metadata for duc lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:03:34Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:44:16Z._
